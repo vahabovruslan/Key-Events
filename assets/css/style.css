@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E5F9DB;
+}
+.container{
+    width: 90%;
+    margin: 2% 5%;
+    display: flex;
+    gap: 100px;
+}
+.col-3{
+    width: calc(100%/4);
+}
+.col-9{
+    width: calc(100%/1.333333333333333);
+    text-align: center;
+}
+.gare{
+    position: relative;
+}
+.boxsize{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.width{
+    padding: 7px 4px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #83764F;
+}
+.height{
+    padding: 7px 4px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #83764F;
+}
+.widhei{
+    padding: 7px 0px;
+    background-color: #ff0000;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.boxcolor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+label{
+    color: #83764F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.bxcl{
+    padding: 7px 15px;
+    background-color: #ff0000;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.objectsize{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 50px;
+}
+.owidth{
+    padding: 7px 4px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #83764F;
+}
+.oheight{
+    padding: 7px 4px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #83764F;
+}
+.owidhei{
+    padding: 7px 0px;
+    background-color: #ff0000;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.objectcolor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.obxcl{
+    padding: 7px 15px;
+    background-color: #ff0000;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.steps{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 50px;
+}
+.addim{
+    padding: 7px 4px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #7b5e07;
+}
+.step{
+    padding: 7px 0px;
+    background-color: #ff0000;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.top{
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.movetop{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    border: 0px;
+    background-color: #A0D8B3;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.moveleft{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    border: 0px;
+    background-color: #A0D8B3;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.format{
+    padding: 10px 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    border: 0px;
+    background-color: #A0D8B3;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.moveright{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    border: 0px;
+    background-color: #A0D8B3;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.movebottom{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    border: 0px;
+    background-color: #A0D8B3;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.topleft{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    border: 0px;
+    background-color: #A0D8B3;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.topright{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    border: 0px;
+    background-color: #A0D8B3;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.bottomright{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    border: 0px;
+    background-color: #A0D8B3;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.bottomleft{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    border: 0px;
+    background-color: #A0D8B3;
+    border-radius: 15px;
+    cursor: pointer;
+}
